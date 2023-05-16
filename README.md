@@ -2,7 +2,9 @@
 
 To Run Back: npm install => npm run start
 
-environment variables: PORT = 3000, PIXABAY_API="https://pixabay.com/api/?key=25540812-faf2b76d586c1787d2dd02736"</h2>
+environment variables:
+    PORT = 3000
+    PIXABAY_API="https://pixabay.com/api/?key=25540812-faf2b76d586c1787d2dd02736"</h2>
 
 
 <h3>Things i wasnt sure when you say:</h3>
