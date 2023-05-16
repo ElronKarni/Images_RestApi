@@ -13,12 +13,12 @@ Front End:
 
 components:
      
-            PhotoGrid: This component is responsible for displaying the photos in a 3x3 grid format and handling the functionality of the previous and next buttons.
+    PhotoGrid: This component is responsible for displaying the photos in a 3x3 grid format and handling the functionality of the previous and next buttons.
             
-            PhotoInformationModal: This component is responsible for displaying a modal when a photo is clicked. It shows detailed information about the specific photo that was clicked.
+    PhotoInformationModal: This component is responsible for displaying a modal when a photo is clicked. It shows detailed information about the specific photo that was clicked.
             
-            SelectType: This component is responsible for displaying a modal when the "Select Photo Type" button is clicked. It allows the user to choose a specific photo type, and based on the selection, it updates the  
-            state of the photos accordingly.
+    SelectType: This component is responsible for displaying a modal when the "Select Photo Type" button is clicked. It allows the user to choose a specific photo type, and based on the selection, it updates the  
+    state of the photos accordingly.
 
 To Run Front: npm i => npm run dev
 To Run Back: npm i => npm run start
