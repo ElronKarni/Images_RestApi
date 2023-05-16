@@ -4,7 +4,7 @@ To Run Back: npm i => npm run start
 environment variables: PORT = 3000, PIXABAY_API="https://pixabay.com/api/?key=25540812-faf2b76d586c1787d2dd02736"
 
 
-Things i wasnt sure when you say:
+*Things i wasnt sure when you say:*
 
 1.Before the App.js render you need to make a server call to the URL:
 
@@ -15,6 +15,7 @@ Things i wasnt sure when you say:
     You mentioned sorting the images by their ID, but you didn't specify how the user would interact with this API route. As a solution, I added a button that retrieves the images sorted by ID and renders them on the           screen. Additionally, I included a console.log to display the sorted images in the browser's dev tools console. However, I wanted to note that some API providers offer query parameters that allow users to specify the       sorting order,  but I assumed you wanted me to implement the sorting logic myself, so that's what I did.
 
 Project Structure:
+
 Front End:
 
 components:
