@@ -1,3 +1,9 @@
+To Run Front: npm i => npm run dev
+To Run Back: npm i => npm run start
+
+environment variables: PORT = 3000, PIXABAY_API="https://pixabay.com/api/?key=25540812-faf2b76d586c1787d2dd02736"
+
+
 Things i wasnt sure when you say:
 
 1.Before the App.js render you need to make a server call to the URL:
@@ -20,5 +26,4 @@ components:
     SelectType: This component is responsible for displaying a modal when the "Select Photo Type" button is clicked. It allows the user to choose a specific photo type, and based on the selection, it updates the  
     state of the photos accordingly.
 
-To Run Front: npm i => npm run dev
-To Run Back: npm i => npm run start
+
