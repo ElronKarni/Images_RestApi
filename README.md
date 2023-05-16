@@ -13,6 +13,7 @@ PIXABAY_API="https://pixabay.com/api/?key=25540812-faf2b76d586c1787d2dd02736"</h
 
 <h4>1.Before the App.js render you need to make a server call to the URL:
     
+    
 I wasn't sure if you wanted me to fetch the photos from the server before rendering App.js in main.tsx or if you preferred using useEffect. I know that React doesn't recommend making requests before rendering, so I         assumed you wanted me to use useEffect. I do know a way to achieve this using Next.js with server-side rendering, and I also found a way to do it with Redux Thunk.
 
 2.Sorting function on the images by id or date.
