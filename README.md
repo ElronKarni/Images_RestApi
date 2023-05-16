@@ -4,7 +4,7 @@ To Run Back: npm i => npm run start
 environment variables: PORT = 3000, PIXABAY_API="https://pixabay.com/api/?key=25540812-faf2b76d586c1787d2dd02736"
 
 
-<h3>Things i wasnt sure when you say:<h3>
+<h3>Things i wasnt sure when you say:</h3>
 
 1.Before the App.js render you need to make a server call to the URL:
     
