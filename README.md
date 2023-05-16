@@ -6,13 +6,13 @@ environment variables: PORT = 3000, PIXABAY_API="https://pixabay.com/api/?key=25
 
 Things i wasnt sure when you say:
 
-1. Before the App.js render you need to make a server call to the URL:
+1.Before the App.js render you need to make a server call to the URL:
 
-I wasn't sure if you wanted me to fetch the photos from the server before rendering App.js in main.tsx or if you preferred using useEffect. I know that React doesn't recommend making requests before rendering, so I assumed you wanted me to use useEffect. I do know a way to achieve this using Next.js with server-side rendering, and I also found a way to do it with Redux Thunk.
+    I wasn't sure if you wanted me to fetch the photos from the server before rendering App.js in main.tsx or if you preferred using useEffect. I know that React doesn't recommend making requests before rendering, so I         assumed you wanted me to use useEffect. I do know a way to achieve this using Next.js with server-side rendering, and I also found a way to do it with Redux Thunk.
 
-2. Sorting function on the images by id or date.
+2.Sorting function on the images by id or date.
 
-You mentioned sorting the images by their ID, but you didn't specify how the user would interact with this API route. As a solution, I added a button that retrieves the images sorted by ID and renders them on the screen. Additionally, I included a console.log to display the sorted images in the browser's dev tools console. However, I wanted to note that some API providers offer query parameters that allow users to specify the sorting order, but I assumed you wanted me to implement the sorting logic myself, so that's what I did.
+    You mentioned sorting the images by their ID, but you didn't specify how the user would interact with this API route. As a solution, I added a button that retrieves the images sorted by ID and renders them on the           screen. Additionally, I included a console.log to display the sorted images in the browser's dev tools console. However, I wanted to note that some API providers offer query parameters that allow users to specify the       sorting order,  but I assumed you wanted me to implement the sorting logic myself, so that's what I did.
 
 Project Structure:
 Front End:
