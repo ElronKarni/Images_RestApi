@@ -1,0 +1,34 @@
+.photo_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-sizing: border-box;
+    &:hover {
+      cursor: pointer;
+      border: 3px solid red;
+    }
+  }
+}
+// .image {
+//   &:hover {
+//     border: 1px solid red;
+//   }
+// }
+.prev_button {
+  margin-top: 1rem;
+  position: fixed;
+  top: 0;
+  left: 10%;
+  transform: translateX(-50%);
+}
+.next_button {
+  margin-top: 1rem;
+  position: fixed;
+  top: 0;
+  right: 10%;
+  transform: translateX(-50%);
+}
